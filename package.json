@@ -1,0 +1,15 @@
+{
+  "name": "hafiza-sarayi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tarayıcıda çalışan 3B hafıza sarayı not defteri",
+  "license": "MIT",
+  "scripts": {
+    "build": "python3 build.py",
+    "test": "node tests/desktop.test.js && node tests/sync.test.js && node tests/phone.test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0",
+    "sharp": "^0.35.0"
+  }
+}
